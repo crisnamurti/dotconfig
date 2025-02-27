@@ -25,6 +25,7 @@ return {
 				lsp_fallback = true,
 				async = true,
 				timeout_ms = 500,
+				quiet = true,
 			},
 			vim.keymap.set({ "n", "v" }, "<leader>mp", function()
 				conform.format({
