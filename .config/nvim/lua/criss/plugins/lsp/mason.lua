@@ -28,6 +28,7 @@ return {
                 "pyright",
                 "prismals",
                 "clangd",
+                "gopls",
             },
             automatic_installation = true,
         })
